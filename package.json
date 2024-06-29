@@ -14,7 +14,7 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
-      "yarn test --bail --passWithNoTests --watchAll=false",
+      "yarn test --bail --passWithNoTests --watchAll=false --forceExit",
       "eslint --fix"
     ]
   },
